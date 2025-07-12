@@ -1,0 +1,20 @@
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# MacOS
+.DS_Store
+
+# Model files (optional, if using Git LFS later)
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (optional)
+data/
