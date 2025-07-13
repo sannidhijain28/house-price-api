@@ -58,17 +58,4 @@ Edit
   "floors": 1.0,
   "zipcode": 98103
 }
-🔸 Sample curl Command
-bash
-Copy
-Edit
-curl -X POST http://localhost:8000/predict \
--H "Content-Type: application/json" \
--d '{
-  "bedrooms": 3,
-  "bathrooms": 2.5,
-  "sqft_living": 1800,
-  "floors": 1.0,
-  "zipcode": 98103
-}'
 
