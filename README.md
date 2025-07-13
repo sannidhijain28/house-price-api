@@ -71,16 +71,4 @@ curl -X POST http://localhost:8000/predict \
   "floors": 1.0,
   "zipcode": 98103
 }'
-🛠️ Project Structure
-bash
-Copy
-Edit
-house-price-api/
-├── app/
-│   ├── main.py              # FastAPI app logic
-│   └── house_model.joblib   # Trained model
-├── data/                    # Raw data (ignored in Git)
-├── train_model.py           # Training script
-├── requirements.txt
-├── Dockerfile
-└── README.md
+
